@@ -7,8 +7,6 @@ class Settings(BaseSettings):
     # LLM
     openai_api_key: str
     openai_model: str = "gpt-5"
-    openai_base_url: str | None = None  # e.g. https://api.groq.com/openai/v1 for Groq
-
 
     # Database
     database_url: str
