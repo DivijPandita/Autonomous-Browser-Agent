@@ -1,1 +1,46 @@
 notes.txt
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# --- Virtual environments ---
+venv/
+auto/
+env/
+.venv/
+ENV/
+
+# --- Env / secrets ---
+.env
+.env.*
+!.env.example
+
+# --- Playwright / browser artifacts ---
+screenshots/
+playwright-report/
+test-results/
+.cache/
+ms-playwright/
+node_modules/
+
+# --- Databases ---
+*.db
+*.sqlite3
+pgdata/
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
+
+# --- Distribution / build ---
+build/
+dist/
+*.egg-info/
